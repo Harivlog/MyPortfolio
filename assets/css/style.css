@@ -17,7 +17,7 @@
     --healper-tint : #f3f4ff;
     --bg : rgb(249 249 255);
     --icons-bg : rgba(144 , 172, 209 , 0.2);
-    --gradient : linear-gradient(0deg , rgb(132 144 255) 0% , rgb(98 189 252) 100%);
+    --gradient : -webkit-linear-gradient(0deg , rgb(132 144 255) 0% , rgb(98 189 252) 100%);
     --gradient-support : -webkit-linear-gradient(
         0deg , 
         rgb(132 144 255) 0% , 
