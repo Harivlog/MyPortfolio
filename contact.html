@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm afront end developer and I build aweosume website in modern languages.">
+    <meta name="keywords" content="HTML, CSS, JavaScript , React , Bootstrap, Tailwind , Portfolio website ">
+    <meta name="author" content="Muhammad Haris Ali">
+   <!-- favicon -->
+   <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+   
+    <!-- <link rel="manifest" href="/manifest.json"> -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+ 
+   
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+    <title>Portfolio about Page</title>
+</head>
+<body>
+    <header class=" header ">
+        <img src="./assets/images/logo.png" class="logo" alt="our logo img">
+        <nav class="navbar ">
+            <ul class="navbar-list">
+                <li><a href="/index.html"  class="navbar-link home-link">Home</a></li>
+                <li><a href="/about.html"  class="navbar-link about-link">About</a></li>
+                <li><a href="/service.html"  class="navbar-link service-link">Services</a></li>
+                <li><a href="#section-portfolio"  class="navbar-link portfolio-link">Portfolio</a></li>
+                <li><a href="./contact.html"  class="navbar-link contact-link">Contact</a></li>
+
+            </ul>
+        </nav>
+     <div class="mobile-navbar-btn">
+         <ion-icon name="menu-outline" class="mobile-nav-icon open-toggle "></ion-icon>
+         <ion-icon name="close-outline" class="mobile-nav-icon close-toggle"></ion-icon>
+
+     </div>
+    </header>
+    <!-- main contact us section ------------------->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3426.8987066048967!2d73.44216641533869!3d30.805474789173818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922a740e0d7f50f%3A0x5b3f122c6e72630e!2sOkara!5e0!3m2!1sen!2s!4v1650065424324!5m2!1sen!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   <!-- Contact -us -section -->
+   <section class="section section-contact" id="contact">
+    <div class="container">
+        <h2 class="common-heading">
+            Contact Us
+        </h2>
+        <div class="section-contact-main contact-container">
+             <form
+             action="https://formspree.io/f/mbjwplyj"
+             method="POST"
+             autocomplete="off">
+                 <div class="grid grid-two-column">
+                    <div class="">
+                        <label for="username"></label>
+                        <input 
+                        type="text"
+                        name="username"
+                        id="username"
+                        placeholder="Username"
+                        required
+                        autocomplete="off"
+                        >
+                    </div>
+                    <div class="">
+                        <label for="email"></label>
+                        <input 
+                        type="email"
+                         name="email"
+                          placeholder="Email" 
+                          id="email"
+                          required
+                          autocomplete="">
+                    </div>
+                </div>
+                <div class="">
+                    <input 
+                    type="Number" 
+                    name="Number" 
+                    placeholder="Contact Number"
+                    required
+                    autocomplete="off">
+                </div>
+                <div class="">
+                    <label for="textarea"></label>
+                  <textarea 
+                  name="textarea"
+                  id="textarea" 
+                  cols="30"
+                  rows="10"
+                  required
+                  autocomplete="off"
+                  min="5"></textarea>
+                </div>
+                <div class="">
+                    <input type="submit" name="submit" value="send Message" id="submit" class="btn">
+                </div>
+             </form>
+        </div>
+    </div>
+</section>
+   <!-- Contact -us -section-end -->
+
+    <!-- Footer section------------------ -->
+    <footer class="section-footer section">
+        <div class="container grid grid-four-column">
+            <div class="f-about">
+                <h3>About</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, accusantium, iure eius quisquam est repudiandae cum odit modi sequi officia praesentium? Dolorum molestiae excepturi vero corporis impedit laboriosam non aperiam!
+                    </p>
+            </div>
+            <div class="f-link">
+                <h3>Links</h3>
+                 <ul>
+                     <li>
+                       <ion-icon name="arrow-forward-outline"></ion-icon>
+                       <a href="#">Home</a>
+                     </li>
+                     <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">About</a>
+                      </li>
+                      <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Services</a>
+                      </li>
+                      <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Portfilio</a>
+                      </li>
+                      <li>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                        <a href="#">Contact</a>
+                      </li>
+                 </ul>
+            </div>
+            <div class="f-link">
+                <h3>Services</h3>
+                 <ul>
+                     <li>
+                       <span>
+                           <ion-icon name="arrow-forward-outline"></ion-icon>
+                       </span>
+                       <a href="#">Web Development</a>
+                     </li>
+                     <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Web Design</a>
+                      </li>
+                      <li>
+                        <span>
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                        </span>
+                        <a href="#">Frontend Development</a>
+                      </li>
+                      
+                 </ul>
+            </div>
+            <!-- end------------ -->
+            <div class="f-address">
+                <h3>have a Questions</h3>
+                <address>
+                    <div class="">
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                        Okara , pakistan
+                        </p>
+                    </div>
+                    <div class="">
+                        <p>
+                            <span><ion-icon name="call-outline"></ion-icon></span>
+                            <a href="tel:+923176102251">+923176102251</a>
+                        </p>
+                    </div>
+                    <div class="">
+                        <p>
+                            <span><ion-icon name="mail-outline"></ion-icon></span>
+                        <a href="mailto:mharisa628@gmail.com">mharisa628@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="">
+                        <p>
+                            <span><ion-icon name="location-outline"></ion-icon></span>
+                        Okara , pakistan
+                        </p>
+                    </div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-social-icons">
+                <a href="" target="_blank">
+                    <ion-icon class="icons" name="logo-instagram"></ion-icon>
+
+                </a>
+                <a href="" target="_blank">
+                    <ion-icon class="icons" name="logo-facebook"></ion-icon>
+
+                </a>
+                <a href="" target="_blank">
+                    <ion-icon class="icons" name="logo-whatsapp"></ion-icon>
+
+                </a>
+            </div>
+        </div>
+        <div class="f-cridets">
+            <p>
+                Copyrite @2022 all right reserved | This Portfolio is made width Muhammad Haris Ali
+
+            </p>
+        </div>
+    </footer>
+</body>
+<script  defer src="./nav.js"></script>
+
+</html>
