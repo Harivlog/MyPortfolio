@@ -187,7 +187,13 @@ li{
     color: var(--helper);
 }
 .hero-img{
+    width: 70%;
     max-width: 80%;
+
+    height: 60%;
+    /* border-radius: 70%; */
+    box-shadow: var(--shadowSupport);
+    border : 7px solid var(--bg);
 }
 .hero-heading{
     text-transform: uppercase;
@@ -197,8 +203,8 @@ li{
 .section-hero-img{
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    /* align-items: center; */
+    
 }
 .hero-para{
     /* margin-top: rem; */
@@ -239,6 +245,7 @@ li{
     margin-bottom: 0.8rem;
 }
 .bio-data-state{
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     /* padding: 0.4rem 0; */
@@ -895,6 +902,10 @@ footer{
     .section-freelancing h2{
       font-size: 3rem;
     }
+    .section-portfolio .grid-three-column{
+        grid-template-columns: 1fr;
+    }
+
 }
 @media (max-width: 400px){
     .btn{

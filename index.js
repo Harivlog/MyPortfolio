@@ -61,7 +61,7 @@ var swiper = new Swiper(".mySwiper", {
   scrooltoTop.innerHTML = `<ion-icon name="arrow-up-outline" class="scroll-top"></ion-icon>`
   Footer.after(scrooltoTop)
  const scroll = ()=>{
-    heroSectionTop.scrollIntoView({behavior : "smooth"})
+    heroSection.scrollIntoView({behavior : "smooth"})
   }
   scrooltoTop.addEventListener('click', scroll)
 
@@ -83,16 +83,15 @@ var swiper = new Swiper(".mySwiper", {
   // navbar toggler----------------
 
 
-const openSidebar = document.querySelectorAll('.open-toggle')
+
+  const openSidebar = document.querySelector('.mobile-navbar-btn')
   const nav = document.querySelector('.header');
 
-  openSidebar.forEach(element => {
-    element.addEventListener("click",()=>{
-      nav.classList.add('active')
-
+  // openSidebar.forEach(element => {
+    openSidebar.addEventListener("click",()=>{
+      nav.classList.toggle('active')
+   
     })
-    
-  });
   
  
   
