@@ -43,8 +43,9 @@ p_btns.addEventListener("click", (e)=>{
 })
 // swipper
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 2,
-    autoplay : {
+  slidesPerView: 2,
+  autoplay : {
+      // direction : vertical,
       delay : 1500,
       disableOnInteraction : false,
     },
@@ -53,6 +54,7 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
       clickable: true,
     },
+  
   });
   const Footer = document.querySelector('.section-footer')
   const scrooltoTop = document.createElement('div');
@@ -151,6 +153,7 @@ if(widthSize.matches){
       el: ".swiper-pagination",
       clickable: true,
     },
+
   });
 
 }

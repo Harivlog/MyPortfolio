@@ -253,6 +253,7 @@ li{
 
 
 }
+
 .bio-progress-bar{
     width: 90%;
     height: 0.8rem;
@@ -478,7 +479,7 @@ li{
 
  .swiper {
     width: 100%;
-    height: 100%;
+    height: 40rem;
   }
 
   .swiper-slide {
@@ -674,7 +675,7 @@ footer{
     background: var(--icons-bg);
     display: inline-block;
     padding: 1rem 1.4rem;
-   
+    margin-left: 1rem;
     cursor: pointer;
     position: relative;
     color: white;
@@ -878,6 +879,11 @@ footer{
 
     }
 }
+@media (max-width : 780px){
+    .swiper-client-msg{
+        height: auto;
+    }
+}
 @media (max-width : 560px) {
     .container{
         max-width: 48rem;
@@ -917,6 +923,11 @@ footer{
     .f-cridets{
         padding: 2.5rem;
     }
+    .swiper {
+        /* touch-action: pan-y; */
+        height: 45rem;
+    }
+    
 }
 @media (max-width: 380px){
     .btn{
